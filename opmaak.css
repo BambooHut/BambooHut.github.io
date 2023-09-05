@@ -6,6 +6,7 @@ ul {
 }
 li {
     float: left;
+    background-color: light;
 }
 li a {
     display: block;
@@ -18,5 +19,5 @@ li a {
 /* change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-    color: white;
+    
 }
