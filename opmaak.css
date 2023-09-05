@@ -6,7 +6,7 @@ ul {
 }
 li {
     float: left;
-    background-color: light;
+    background-color: rgb(119, 240, 119);
 }
 li a {
     display: block;
