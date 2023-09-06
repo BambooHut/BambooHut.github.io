@@ -4,13 +4,15 @@ ul {
     border: 2;
     padding: 0;
     overflow: hidden;
-    #grad1 {
-        background-color: darkgreen; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
-      }
+    background-color: darkgrey;
+}
+
 li {
     float: left;
 }
+.active {
+    background-image: linear-gradient(60deg, darkgreen, lightgreen);
+  }
 li a {
     display: block;
     color: #fff;
@@ -19,10 +21,10 @@ li a {
     text-decoration: none;
 }
 /* change the link color to #111 (black) on hover */
-li a:hover {
+li a:hover:not(.active) {
     background-color: #111;
-    
 }
+
 body {
     background-color: #77f077 ;
 }
