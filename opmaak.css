@@ -4,8 +4,11 @@ ul {
     border: 2;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient( bottom right, darkgreen, lightgreen);
-    
+    #grad1 {
+        height: 200px;
+        background-color: darkgreen; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+      }
 li {
     float: left;
 }
