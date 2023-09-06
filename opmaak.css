@@ -4,8 +4,10 @@ ul {
     border: 2;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient( bottom right, darkgreen, lightgreen);
+    #grad }
+        background-image: linear-gradient( bottom right, darkgreen, lightgreen);
 }
+    
 li {
     float: left;
 }
