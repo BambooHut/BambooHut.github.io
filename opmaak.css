@@ -12,6 +12,7 @@ li {
 }
 li a.active {
     background-image: linear-gradient(60deg, darkgreen, lightgreen);
+    color: white
   }
 li a {
     display: block;
