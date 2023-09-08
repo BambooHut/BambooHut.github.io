@@ -10,7 +10,7 @@ ul {
 li {
     float: left;
 }
-.active {
+li a.active {
     background-image: linear-gradient(60deg, darkgreen, lightgreen);
   }
 li a {
