@@ -25,6 +25,9 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
+img {
+    float:right;
+}
 
 body {
     background-color: #77f077 ;
