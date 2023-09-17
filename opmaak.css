@@ -32,3 +32,15 @@ img {
 body {
     background-color: #77f077 ;
 }
+
+/*Details over intro-sectie. Welke de introsectie is is aangegeven in de andere tab */
+    /*titel deel */ 
+.intro-section h1{
+    text-align: center;
+    font-size: 36px;
+}
+    /*paragraaf (<p>) deel */ 
+.intro-section p{
+    text-align: center;
+    font-size: 18px;
+}
