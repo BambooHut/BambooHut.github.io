@@ -17,7 +17,7 @@ ul {
         text-align: center;
         font-size: 18px;
     }
-    .projects p{
+    .projects {
         float: left;  
         width: 30%;
         margin-bottom: 20px;
