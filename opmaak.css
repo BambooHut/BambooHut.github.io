@@ -17,6 +17,12 @@ ul {
         text-align: center;
         font-size: 18px;
     }
+    .projects p{
+        width: 30%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 3px solid darkgreen;
+    }
 
 li {
     float: left;
