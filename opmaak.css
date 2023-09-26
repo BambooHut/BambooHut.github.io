@@ -52,6 +52,7 @@ li a:hover:not(.active) {
 }
 img {
     float:right;
+    width: 40%;
 }
 
 body {
