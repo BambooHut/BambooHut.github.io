@@ -63,7 +63,7 @@ iframe {
     align-content: right;
 } 
 .footer{
-    bottom: 100%;
+    bottom: 0;
     padding: 20px;
     text-align: center;
     background-color: darkgreen;
