@@ -10,7 +10,7 @@ ul {
     /*titel deel */ 
     .intro-section{
         text-align: center;
-        background-color: darkgreen;
+        background-color: rgb(83, 175, 83);
         color: #fff;
         padding: 20px;
     }
@@ -53,11 +53,16 @@ body {
 iframe {
     align-content: right;
 } 
+.card{
+    background-color: rgb(83, 175, 83) ;
+    padding: 20px;
+    margin-top: 20px;
+}
 footer{
     bottom: 0;
     padding: 20px;
     text-align: center;
-    background-color: darkgreen;
+    background-color: rgb(83, 175, 83);
     color: #fff;
 }
 
