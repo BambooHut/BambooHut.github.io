@@ -44,8 +44,6 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
-
-
 body {
     background-color: #77f077 ;
 }
@@ -68,6 +66,4 @@ footer{
     background-color: rgb(83, 175, 83);
     color: #fff;
 }
-
-
 /*Voor meer info ga naar https://timmvlc.github.io/*/
