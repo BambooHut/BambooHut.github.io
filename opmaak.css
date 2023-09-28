@@ -59,8 +59,9 @@ iframe {
 }
 footer{
     bottom: 0;
-    position: static;
+    position: fixed;
     padding: 20px;
+    width: 100%;
     text-align: center;
     background-color: rgb(83, 175, 83);
     color: #fff;
