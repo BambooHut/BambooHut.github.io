@@ -68,7 +68,7 @@ iframe {
 }
 footer{
     bottom: 0;
-    position: fixed;
+    position: absolute;
     font-size: 18px;
     padding: 10px;
     width: 100%;
