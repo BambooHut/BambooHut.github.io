@@ -1,76 +1,75 @@
+/*Dit zegt dat alle ongeordende lijsten standaart dit volgen  */
 ul {
-    list-style-type: none;
-    margin: 0;
-    border: 2;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(58, 58, 58);
+    list-style-type: none; /*Zegt dat er niets voor dit deel staat van de lijst. Dus geen bolletje of sterretje*/
+    margin: 0; /*Hoe groot de ruimte is buiten de randen van dit element */
+    border: 2; /*Hoe dik de rand is */
+    padding: 0; /*Hoe groot de ruimte is tussen de inhoud en de rand */
+    overflow: hidden; /*Als de tekst uit het blokje gaat doordat er te veel van is, zal het gewoon niet zichtbaar zijn. */
+    background-color: rgb(58, 58, 58); /*Achtergrondkleur in het blokje */
+
+ li { /*Over de punten in een lijst. */
+  float: left; /*Alle punten zullen op een rijtje allemaal aan de linkerkant staan.(1234) */
 }
-/*Details over intro-sectie. Welke de introsectie is is aangegeven in de andere tab */
-    /*titel deel */ 
+/*Details over div class. Alles wat met een "." begint is een div class. De namen heb ik zelf gekozen. */
+    
     .intro-section{
-        text-align: center;
-        background-color: rgb(83, 175, 83);
-        color: #fff;
+        text-align: center;/*De tekst staat in het midden van het beeld. */
+        background-color: rgb(83, 175, 83); /*De achtergrondkleur is hier aangegeven met 3 cijfers. Dit zijn de waardes van hoeveel groen, blauw en rood de lampjes produceren voor deze kleur. */
+        color: #fff;/*Tekst kleur */
         padding: 20px;
     }
 
     
     .column {
         float: left;  
-        font-size: 18px;
-        width: 40%;
+        font-size: 18px;/*lettergrootte */
+        width: 40%; /*Hoeveel procent van het beelscherm het del opneemt */
         padding: 15px;
     
     
     }
     .inleiding{
         text-align: center;
-        color: #000000;
+        color: #111;
         padding: 20px;
         font-size: 30px;
-        
+
     }
 
 
-li {
-    float: left;
-}
-li a.active {
-    background-image: linear-gradient(60deg, darkgreen, lightgreen);
+li a.active { /*Dit is wanneer een deel van een lijst actief aan staat. */
+    background-image: linear-gradient(60deg, darkgreen, lightgreen); /*Het actieve blokje heeft nu 2 kleuren die diagonaal vervagen. */
     color: white
   }
-li a {
-    display: block;
+li a {/*Dit zegt hoe de punten van de lijst eruit zien */
+    display: block;/*Het is in de vorm van een blokje */
     color: #fff;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none; /*Met text-decoration kan je een lijn onder/boven/door/om je tekst lopen */
 }
-/* change the link color to #111 (black) on hover */
-li a:hover:not(.active) {
+
+li a:hover:not(.active) { /*Laat zien wat er gebeurt  als je je muis over dit laat hoveren, zonder te klikken. (niet actief als dit al .active is. */
     background-color: #111;
 }
-body {
+body {/*dit gat over de hele website pagina */
     background-color: #77f077 ;
-
 }
-
-iframe {
-    align-content: right;
+iframe {/*Dit gaat over de imbedded link. */
+    align-content: right;/*Het float aan de rechter kant. */
 } 
 .card{
     background-color: white ;
     width: 50%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 10px;/*Laat zien hoeveel pixels er tussen dit element en het elemant erboven zitten */
     border: #111;
-    border-style: solid;
+    border-style: solid;/*De omleining rond dit blokje is een solide lijn. */
     color: #111;
 }
-footer{
-    bottom: 0;
-    position: absolute;
+footer{/*Dit gaat over de footer */
+    bottom: 0;/*De afstand tussen de onderkant van de pagina en de footer is 0 */
+    position: absolute; /*Dit element is gepositioneeerd in verhouding tot de dichtstbijzijnde "ancestor" */
     font-size: 18px;
     padding: 10px;
     width: 100%;
@@ -78,4 +77,3 @@ footer{
     background-color: rgb(83, 175, 83);
     color: #fff;
 }
-/*Voor meer info ga naar https://timmvlc.github.io/*/
