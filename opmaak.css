@@ -6,6 +6,7 @@ ul {
     padding: 0; /*Hoe groot de ruimte is tussen de inhoud en de rand */
     overflow: hidden; /*Als de tekst uit het blokje gaat doordat er te veel van is, zal het gewoon niet zichtbaar zijn. */
     background-color: rgb(58, 58, 58); /*Achtergrondkleur in het blokje */
+}
 /*Over de punten in een lijst. */
  li { 
   float: left; /*Alle punten zullen op een rijtje allemaal aan de linkerkant staan.(1234) */
