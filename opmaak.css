@@ -11,32 +11,24 @@ ul {
   float: left; /*Alle punten zullen op een rijtje allemaal aan de linkerkant staan.(1234) */
 }
 /*Details over div class. Alles wat met een "." begint is een div class. De namen heb ik zelf gekozen. */
-    
     .intro-section{
         text-align: center;/*De tekst staat in het midden van het beeld. */
         background-color: rgb(83, 175, 83); /*De achtergrondkleur is hier aangegeven met 3 cijfers. Dit zijn de waardes van hoeveel groen, blauw en rood de lampjes produceren voor deze kleur. */
         color: #fff;/*Tekst kleur */
         padding: 20px;
     }
-
-    
     .column {
         float: left;  
         font-size: 18px;/*lettergrootte */
         width: 40%; /*Hoeveel procent van het beelscherm het del opneemt */
         padding: 15px;
-    
-    
     }
     .inleiding{
         text-align: center;
         color: #111;
         padding: 20px;
         font-size: 30px;
-
     }
-
-
 li a.active { /*Dit is wanneer een deel van een lijst actief aan staat. */
     background-image: linear-gradient(60deg, darkgreen, lightgreen); /*Het actieve blokje heeft nu 2 kleuren die diagonaal vervagen. */
     color: white
