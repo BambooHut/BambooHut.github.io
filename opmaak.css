@@ -86,7 +86,7 @@ video{ /*Dit gaat over de video*/
 }
 /*Dit gaat over de footer */
 footer{
-    margin-top: 50px;
+    margin-top: 500px;
     bottom: 0; 
     /*De afstand tussen de onderkant van de pagina en de footer is 0 */
     position: absolute; 
