@@ -75,7 +75,7 @@ iframe {
     width: 50%;
     padding: 10px;
     margin-top: 10px; 
-    /*Laat zien hoeveel pixels er tussen dit element en het elemant erboven zitten */
+    /*Laat zien hoeveel pixels er tussen dit element en het element erboven zitten */
     border: #111;
     border-style: solid; 
     /*De omleining rond dit blokje is een solide lijn. */
@@ -86,6 +86,7 @@ video{ /*Dit gaat over de video*/
 }
 /*Dit gaat over de footer */
 footer{
+    margin-top: 50px;
     bottom: 0; 
     /*De afstand tussen de onderkant van de pagina en de footer is 0 */
     position: absolute; 
