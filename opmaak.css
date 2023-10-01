@@ -81,6 +81,9 @@ iframe {
     /*De omleining rond dit blokje is een solide lijn. */
     color: #111;
 }
+video{ /*Dit gaat over de video*/
+    float: right;
+}
 /*Dit gaat over de footer */
 footer{
     bottom: 0; 
