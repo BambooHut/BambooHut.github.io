@@ -35,7 +35,7 @@
     <p> De prosessor wordt ook wel eens een CPU genoemd. CPU staat voor central processing unit.
       De CPU is geconnecteerd aan het moederbord. Het moederbord connecteert alle onderdelen van de computer.
       De CPU haalt voor elke handeling eerst informatie op uit het geheugen over hoe het programma werkt. Dit staat in het RAM.
-      <br>
+      <h3>RAM</h3>
       RAM staat coor random access memory.
       Hierin staan allemaal 'adressen' en elk adres bevat data. 
       Meestal worden de adressen op volgorde afgegaan, maar het is mogelijk om bij een adres te komen die niet op volgorde gaat. Daarom 'random' 
@@ -43,49 +43,57 @@
       1 soort verstuurd het adres, 1 soort verstuurd data, een 'enables' (Laat de RAM informatie sturen) en een 'set' (zorgt ervoor dat informatie in de RAM wordt overschreven.
       <br>
       HIER een cenario: <br>
-        1. CPU vertstuurd een adres naar de RAM.
-        2. CPU verstuurd een 'enable' command.
-        3. RAM verstuurd de data vaan de CPU.
-        4. CPU verwerkt de data.
+      <ul>
+       <li>1. CPU vertstuurd een adres naar de RAM.</li>
+       <li>2. CPU verstuurd een 'enable' command.</li>
+       <li>3. RAM verstuurd de data vaan de CPU.</li>
+       <li>4. CPU verwerkt de data.</li>
+      </ul>
       <br>
       DIT is hoe informatie op de RAM wordt gezet: <br>
-        1. CPU verstuurd een adres.
-        2. CPU verstuurd data naar de RAM.
-        3. CPU verstuurd een 'set'command.
-        4. Informatie is opgeslagen onder dat bepaalde adres.
+      <ul>
+        <li>1. CPU verstuurd een adres.</li>
+        <li>2. CPU verstuurd data naar de RAM.</li>
+        <li>3. CPU verstuurd een 'set'command.</li>
+        <li>4. Informatie is opgeslagen onder dat bepaalde adres.</li>
+      </ul>
       <br>
       Wat staat er nou in die data?
-      Je hebt instructies, die zeggen wat de CPU moet doen.
-      Je hebt nummers. 
-      Je hebt letters. 
-      Je hebt adressen. Dit zijn bijvoorbeeld adressen naar andere apparaten. Bijvoorbeeld je scherm.
-      <br>
+      <ul>
+      <li>Je hebt instructies, die zeggen wat de CPU moet doen.</li>
+      <li>Je hebt nummers. </li>
+      <li>Je hebt letters. </li>
+      <li>Je hebt adressen. Dit zijn bijvoorbeeld adressen naar andere apparaten. Bijvoorbeeld je scherm.</li>
+      </ul>
       <br>
       Wat voor instructies heeft die CPU nou? <br>
       Een paar voorbeelden zijn:
-        1.Out: data wordt gestuurd naar een ander apparaat. 'output'. Denk aan een computerscherm.
-        2.In: data komt binnen via een ander apparaat. 'input'. Denk aan een keyboard.
-        3.Load: er wordt iets van de RAM naar de CPU gebracht. Bijvoorbeeld een nummer. Deze kunnen dan bij elkaar op worden geteld door een 'add' intstructie.
-        4.Store: de CPU slaat iets weer op in de RAM. Bijvoobeeld dat opgetelde nummer.
-        5.Compare: er wordt gekeken of variabele gelijk, groter of kleiner zijn.
-        6.Jump: gaat naar een bepaald adres in de RAM, wat niet persé het volgende adres op het lijstje is.
-        7.Jump if: er is heer een bepaalde voorwaarde die moet worden voldaan, voordat dit gebeurt. Bijvoorbeeld 2 nummers moeten hetzelfde zijn.
+      <ul>
+        <li>1.Out: data wordt gestuurd naar een ander apparaat. 'output'. Denk aan een computerscherm.</li>
+        <li>2.In: data komt binnen via een ander apparaat. 'input'. Denk aan een keyboard.</li>
+        <li>3.Load: er wordt iets van de RAM naar de CPU gebracht. Bijvoorbeeld een nummer. 
+          Deze kunnen dan bij elkaar op worden geteld door een 'add' intstructie.</li>
+        <li>4.Store: de CPU slaat iets weer op in de RAM. Bijvoobeeld dat opgetelde nummer.</li>
+        <li>5.Compare: er wordt gekeken of variabele gelijk, groter of kleiner zijn.</li>
+        <li>6.Jump: gaat naar een bepaald adres in de RAM, wat niet persé het volgende adres op het lijstje is.</li>
+        <li>7.Jump if: er is heer een bepaalde voorwaarde die moet worden voldaan, voordat dit gebeurt. Bijvoorbeeld 2 nummers moeten hetzelfde zijn.</li>
+      </ul>
       Er zijn natuurlijk ook anderen, maar dit zijn een paar die wel elke CPU heeft.
       <br>
-      <br>
-      Een CPU bestaat uit 3 hoofddelen.<br>
-        1. Rekenkundige logische eenheid (ALU(arithmatic logical unit)).
-        2. Besturings eenheid (CU (control unit)).
-        3. Geheugeneenheid
+
+      Een CPU bestaat uit 3 hoofddelen.
+      <ul>        
+        <li>1. Rekenkundige logische eenheid (ALU(arithmatic logical unit)).</li>
+        <li>2. Besturings eenheid (CU (control unit)).</li>
+        <li>3. Geheugeneenheid.</li>
+      </ul>
+
       <br>
       De ALU doet alle rekendingen, zoals optellen, aftrekken en vergelijken.
         Cijfers worden hier weergegeven in binaire code. Of iets groter/kleiner/gelijk is, wordt dat doorgegeven aan de CU via apparte draden.
       De CU krijgt instructies van RAM en verdeeld dat in kleinere instructies, zoals 'activeer deze draad om iets te activeren/op te slaan'.
       Alle dingen die hieruit komen worden opgeslagen in een tijdelijke opslag. Er zijn hier meerdere van in een CPU voor meerdere soorten informatie.
       De informatie kan later via snoeren worden doorgegeven.
-      
-      
-      
       
     </p>
   </body>
