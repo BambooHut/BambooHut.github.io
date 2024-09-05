@@ -75,45 +75,5 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; } 
-ul {
-    list-style-type: none; 
-    /*Zegt dat er niets voor dit deel staat van de lijst. Dus geen bolletje of sterretje*/
-    margin: 0; 
-    /*Hoe groot de ruimte is buiten de randen van dit element */
-    border: 2; 
-    /*Hoe dik de rand is */
-    padding: 0; 
-    /*Hoe groot de ruimte is tussen de inhoud en de rand */
-    overflow: hidden; 
-    /*Als de tekst uit het blokje gaat doordat er te veel van is, zal het gewoon niet zichtbaar zijn. */
-    background-color: rgb(58, 58, 58); 
-    /*Achtergrondkleur in het blokje */
-}
-/*Over de punten in een lijst. */
- li { 
-  float: left; /*Alle punten zullen op een rijtje allemaal aan de linkerkant staan.(1234) */
-}
-/*Details over div class. Alles wat met een "." begint is een div class. De namen heb ik zelf gekozen. */
-    .intro-section{
-        text-align: center; 
-        /*De tekst staat in het midden van het beeld. */
-        background-color: rgb(83, 175, 83); 
-        /*De achtergrondkleur is hier aangegeven met 3 cijfers. Dit zijn de waardes van hoeveel groen, blauw en rood de lampjes produceren voor deze kleur. */
-        color: #fff; 
-        /*Tekst kleur */
-        padding: 20px;
-    }
-    .column {
-        float: left;  
-        font-size: 18px; 
-        /*lettergrootte */
-        width: 40%; 
-        /*Hoeveel procent van het beelscherm het del opneemt */
-        padding: 15px;
-    }
-    .inleiding{
-        text-align: center;
-        color: #111;
-        padding: 20px;
-        font-size: 30px;
-    }
+
+
