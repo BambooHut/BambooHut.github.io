@@ -82,6 +82,12 @@
 }
 .top-level-menu a:hover { color: #000000; }
 
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
 
 ul {
     list-style-type: none; 
