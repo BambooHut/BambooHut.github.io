@@ -75,7 +75,10 @@
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #000000; } 
+.top-level-menu a:hover { 
+    color: #000000;
+    display: block;
+} 
 
 
 
@@ -117,6 +120,7 @@ ul {
         width: 40%; 
         /*Hoeveel procent van het beelscherm het del opneemt */
         padding: 15px;
+        
     }
     .inleiding{
         text-align: center;
@@ -182,3 +186,7 @@ footer{
     background-color: rgb(83, 175, 83);
     color: #fff;
 }
+
+
+
+
