@@ -1,3 +1,13 @@
+/*menu css*/
+.menu{
+  list-style-type: none; /*Zegt dat er niets voor dit deel staat van de lijst. Dus geen bolletje of sterretje*/
+  margin: 0; /*Hoe groot de ruimte is buiten de randen van dit element */
+  border: 2; /*Hoe dik de rand is */
+  padding: 0; /*Hoe groot de ruimte is tussen de inhoud en de rand */
+  overflow: hidden; /*Als de tekst uit het blokje gaat doordat er te veel van is, zal het gewoon niet zichtbaar zijn. */
+  background-color: rgb(58, 58, 58); /*Achtergrondkleur in het blokje */
+}
+
 /*dropdown css*/
     .dropbtn {
         background-color: #4CAF50;
@@ -28,11 +38,16 @@
   .dropdown-content a:hover {background-color: #f1f1f1
     }
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline;
   }
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+  .dropdown a {
+    text-decoration: none;
+  }
+
+
 /*Eind dropdown css*/
 
 
