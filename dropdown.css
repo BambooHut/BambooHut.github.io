@@ -57,6 +57,12 @@
 
 /*Eind dropdown css*/
 
-
-/*body 1 css (zoekbalk)*/
-
+/*body*/
+.column {
+  float: left;  
+  font-size: 18px; 
+  /*lettergrootte */
+  width: 45%; 
+  /*Hoeveel procent van het beelscherm het del opneemt */
+  padding: 15px;
+}
