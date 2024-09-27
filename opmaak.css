@@ -171,17 +171,3 @@ video{ /*Dit gaat over de video*/
     float: right;
 
 }
-/*Dit gaat over de footer */
-footer{
-    margin-top: 500px;
-    bottom: 0; 
-    /*De afstand tussen de onderkant van de pagina en de footer is 0 */
-    position: absolute; 
-    /*Dit element is gepositioneeerd in verhouding tot de dichtstbijzijnde "ancestor" */
-    font-size: 18px;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(83, 175, 83);
-    color: #fff;
-}
