@@ -98,7 +98,11 @@
     background-color: red;
     color: #f5f505;
 }
-
+li a.active { 
+    background-image: linear-gradient(60deg, darkgreen, lightgreen); 
+    /*Het actieve blokje heeft nu 2 kleuren die diagonaal vervagen. */
+    color: white
+  }
 
 
 
