@@ -12,10 +12,12 @@
     display: none;
 }
 
+
 .derdelevel-menu > li
 {
     height: 30px;
-    background: #999999;
+    color:#FFFFFF;
+    background-color: #111
 }
 .derdelevel-menu > li:hover { background: #CCCCCC; }
 
@@ -35,12 +37,13 @@
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    color:#FFFFFF;
+    background-color: #111
 }
-.tweedelevel-menu > li:hover >ul { background: #CCCCCC; 
+.tweedelevel-menu > li:hover >ul { 
     display: inline;
-    background-color: red;
-    color: #f5f505;
+    color:#FFFFFF;
+    background-color: #111
 }
 
                                           /*LET OP DIE DISPLAY INLINE*/
@@ -58,11 +61,13 @@
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    color:#FFFFFF;
+    background-color: #111
 }
 .bovenstelevel-menu > li:hover { 
-    background: #CCCCCC;
     display: inline;
+    color:#FFFFFF;
+    background-color: #111
  }
 
 .bovenstelevel-menu li:hover > ul
@@ -77,26 +82,34 @@
 
 .bovenstelevel-menu a /* Apply to all links inside the multi-level menu */
 {
-    font: bold 14px Arial, Helvetica, sans-serif;
+
+    list-style-type: none; /*Zegt dat er niets voor dit deel staat van de lijst. Dus geen bolletje of sterretje*/
+    margin: 0; /*Hoe groot de ruimte is buiten de randen van dit element */
+    border: 2; /*Hoe dik de rand is */
+    padding: 14px 16px; /*Hoe groot de ruimte is tussen de inhoud en de rand */
+    overflow: hidden; /*Als de tekst uit het blokje gaat doordat er te veel van is, zal het gewoon niet zichtbaar zijn. */
+    background-color: rgb(58, 58, 58); /*Achtergrondkleur in het blokje */
+
     color: #FFFFFF;
     text-decoration: none;
-    padding: 0 0 0 10px;
 
     /* Make the link cover the entire list item-container */
     display: block;
     line-height: 30px;
+    text-align: center;
 }
 .bovenstelevel-menu a:hover {
-    background-color: red;
-    color: #f5f505;
+
+    color:#FFFFFF;
+    background-color: #111
 }
 
 .bovenstelevel-menu li:hover > ul
 {
     /* On hover, display the next level's menu */
     display: inline;
-    background-color: red;
-    color: #f5f505;
+    background-color: #111;
+    color: #FFFFFF;
 }
 li a.active { 
     background-image: linear-gradient(60deg, darkgreen, lightgreen); 
