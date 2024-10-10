@@ -120,6 +120,12 @@ li a.active {
   body {
     background-color: #a6f0a6 ;
 }
+    .inleiding{
+    text-align: center;
+    color: #111;
+    padding: 20px;
+    font-size: 30px;
+    }
     .column{
         float: left;  
         font-size: 18px; 
