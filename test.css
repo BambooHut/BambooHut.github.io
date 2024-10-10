@@ -46,7 +46,6 @@
     background-color: #111
 }
 
-                                          /*LET OP DIE DISPLAY INLINE*/
 
 .bovenstelevel-menu
 {
@@ -121,6 +120,25 @@ li a.active {
   body {
     background-color: #a6f0a6 ;
 }
+    .column{
+        float: left;  
+        font-size: 18px; 
+        /*lettergrootte */
+        width: 45%; 
+        /*Hoeveel procent van het beelscherm het del opneemt */
+        padding: 15px;
+    }
+    iframe {
+        align-content: right; 
+        /*Het float aan de rechter kant. */
+    } 
+    video{ /*Dit gaat over de video*/
+        float: right;
+    
+    }
+    image{
+        float:right;
+    }
 
 
 
