@@ -144,7 +144,7 @@ li a.active {
     border-style: solid; 
     /*De omleining rond dit blokje is een solide lijn. */
     color: #111;
-    float:right;
+    float: left;
 }
     iframe {
         align-content: right; 
