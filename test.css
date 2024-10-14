@@ -134,6 +134,18 @@ li a.active {
         /*Hoeveel procent van het beelscherm het del opneemt */
         padding: 15px;
     }
+.card{
+    background-color: white ;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; 
+    /*Laat zien hoeveel pixels er tussen dit element en het element erboven zitten */
+    border: #111;
+    border-style: solid; 
+    /*De omleining rond dit blokje is een solide lijn. */
+    color: #111;
+    float:right;
+}
     iframe {
         align-content: right; 
         /*Het float aan de rechter kant. */
